@@ -24,7 +24,10 @@ public class MainActivity extends AppCompatActivity {
     private void AnhXa() {
         lvTraiCay = findViewById(R.id.listviewTraiCay);
         arrayTraiCay = new ArrayList<>();
-        arrayTraiCay.add(new TraiCay("Chuoi tieu", "Chuoi tieu Long An", R.drawable.ic_launcher_background));
-        arrayTraiCay.add(new TraiCay("Thanh Long", "Thanh long ruot do", R.drawable.ic_launcher_foreground));
+        arrayTraiCay.add(new TraiCay("Chuối tiêu", "Chuối tiêu Long An", R.drawable.chuoi_tieu));
+        arrayTraiCay.add(new TraiCay("Thanh Long", "Thanh long ruột đỏ", R.drawable.thanh_long));
+        arrayTraiCay.add(new TraiCay("Dâu tây", "Dâu tây Đà Lạt", R.drawable.dau_tay));
+        arrayTraiCay.add(new TraiCay("Dưa hấu", "Dưa hấu tiền giang", R.drawable.dua_hau));
+        arrayTraiCay.add(new TraiCay("Cam vàng", "Cam vàng nhập khẩu", R.drawable.cam_vang));
     }
 }
